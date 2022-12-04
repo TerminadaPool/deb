@@ -1,0 +1,234 @@
+Package: cardano-node
+Version: 1.35.4-1
+Architecture: amd64
+Maintainer: builder <builder@build.terminada.io>
+Installed-Size: 171759
+Depends: libc6 (>= 2.29), libgmp10, libsecp256k1-0-iog (>= 0.1), libsodium23 (>= 1.0.17), libssl1.1 (>= 1.1.0), libsystemd0, zlib1g (>= 1:1.1.4), adduser, curl, jq
+Filename: ./cardano-node_1.35.4-1_amd64.deb
+Size: 23919824
+MD5sum: 7c212aa0efca60f79fc9e732bebe375d
+SHA1: ba986fe2bb52b0f985fd4255808c9e757ab2c768
+SHA256: 843f38ebd2ca5793b6bcde16d7bb56a6eecbe7256eccfc1c1ea6e310756fed9c
+Section: misc
+Priority: optional
+Multi-Arch: same
+Homepage: https://cardano.org
+Description: Blockchain platform for changemakers, innovators, and visionaries,
+ with the tools and technologies required to create possibility for many, as
+ well as the few, and bring about positive global change.
+ .
+ Cardano is a proof-of-stake blockchain platform: the first to be founded on
+ peer-reviewed research and developed through evidence-based methods. It
+ combines pioneering technologies to provide unparalleled security and
+ sustainability to decentralized applications, systems, and societies.
+ .
+ With a leading team of engineers, Cardano exists to redistribute power from
+ unaccountable structures to the margins – to individuals – and be an enabling
+ force for positive change and progress.
+
+Package: cardano-node
+Version: 1.35.4-1
+Architecture: arm64
+Maintainer: builder <builder@build.terminada.io>
+Installed-Size: 208248
+Depends: libc6 (>= 2.29), libnuma1 (>= 2.0.11), libsecp256k1-0-iog (>= 0.1), libsodium23 (>= 1.0.17), libssl1.1 (>= 1.1.0), libsystemd0, zlib1g (>= 1:1.1.4), adduser, curl, jq
+Filename: ./cardano-node_1.35.4-1_arm64.deb
+Size: 29397560
+MD5sum: 47f6452f809ba65e10a77a5473da971f
+SHA1: 5c49e7825f8ad70aa39a67bd00a21811b9d8bf46
+SHA256: 248f69039d9fb880bb472d7ce8075be6a3e99d87d6b2d42efca590c9a1a07a6d
+Section: misc
+Priority: optional
+Multi-Arch: same
+Homepage: https://cardano.org
+Description: Blockchain platform for changemakers, innovators, and visionaries,
+ with the tools and technologies required to create possibility for many, as
+ well as the few, and bring about positive global change.
+ .
+ Cardano is a proof-of-stake blockchain platform: the first to be founded on
+ peer-reviewed research and developed through evidence-based methods. It
+ combines pioneering technologies to provide unparalleled security and
+ sustainability to decentralized applications, systems, and societies.
+ .
+ With a leading team of engineers, Cardano exists to redistribute power from
+ unaccountable structures to the margins – to individuals – and be an enabling
+ force for positive change and progress.
+
+Package: libsecp256k1-0-iog
+Source: libsecp256k1-iog
+Version: 0.1-1
+Architecture: amd64
+Maintainer: builder <builder@build.terminada.io>
+Installed-Size: 1193
+Depends: libc6 (>= 2.14)
+Conflicts: libsecp256k1-0
+Replaces: libsecp256k1-0
+Provides: libsecp256k1-0 (= 0.1)
+Filename: ./libsecp256k1-0-iog_0.1-1_amd64.deb
+Size: 1154284
+MD5sum: c17dded1810e66869b51986e7503ba74
+SHA1: c6f28fe73479f30916bccf45db4d1293c3bf5fd0
+SHA256: f41991d3dddb2924292a901419c7cb922cbaadd434fcf99023ed673e879a3f67
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/bitcoin/secp256k1
+Description: library for EC operations on curve secp256k1
+ An optimized C library for EC operations on curve secp256k1.
+ .
+ NB! This library is intended to be
+ the highest quality publicly available library
+ for cryptography on the secp256k1 curve.
+ However, the primary focus of its development has been
+ for usage in the Bitcoin system
+ and usage unlike Bitcoin's may be less well tested, verified,
+ or suffer from a less well thought out interface.
+ Correct usage requires some care and consideration
+ that the library is fit for your application's purpose.
+ .
+ Features:
+  * secp256k1 ECDSA signing/verification and key generation.
+  * Additive and multiplicative tweaking of secret/public keys.
+  * Serialization/parsing of secret keys, public keys, signatures.
+  * Constant time, constant memory access signing and public key generation.
+  * Derandomized ECDSA (via RFC6979 or with a caller provided function.)
+  * Very efficient implementation.
+  * Suitable for embedded systems.
+  * Optional module for public key recovery.
+  * Optional module for ECDH key exchange.
+
+Package: libsecp256k1-0-iog
+Source: libsecp256k1-iog
+Version: 0.1-1
+Architecture: arm64
+Maintainer: builder <builder@build.terminada.io>
+Installed-Size: 1177
+Depends: libc6 (>= 2.17)
+Conflicts: libsecp256k1-0
+Replaces: libsecp256k1-0
+Provides: libsecp256k1-0 (= 0.1)
+Filename: ./libsecp256k1-0-iog_0.1-1_arm64.deb
+Size: 1153724
+MD5sum: 439b9c709826140d0ecb1c8847929322
+SHA1: c36834dfd85b157441c0fb9279113a3d1e22bcd3
+SHA256: 35a7cd7ec46383f8e72a8d17f1cbb551b4db2d4c87c8961993a967ba0dffd00e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/bitcoin/secp256k1
+Description: library for EC operations on curve secp256k1
+ An optimized C library for EC operations on curve secp256k1.
+ .
+ NB! This library is intended to be
+ the highest quality publicly available library
+ for cryptography on the secp256k1 curve.
+ However, the primary focus of its development has been
+ for usage in the Bitcoin system
+ and usage unlike Bitcoin's may be less well tested, verified,
+ or suffer from a less well thought out interface.
+ Correct usage requires some care and consideration
+ that the library is fit for your application's purpose.
+ .
+ Features:
+  * secp256k1 ECDSA signing/verification and key generation.
+  * Additive and multiplicative tweaking of secret/public keys.
+  * Serialization/parsing of secret keys, public keys, signatures.
+  * Constant time, constant memory access signing and public key generation.
+  * Derandomized ECDSA (via RFC6979 or with a caller provided function.)
+  * Very efficient implementation.
+  * Suitable for embedded systems.
+  * Optional module for public key recovery.
+  * Optional module for ECDH key exchange.
+
+Package: libsecp256k1-iog-dev
+Source: libsecp256k1-iog
+Version: 0.1-1
+Architecture: amd64
+Maintainer: builder <builder@build.terminada.io>
+Installed-Size: 1274
+Depends: libsecp256k1-0-iog (= 0.1-1), pkg-config
+Conflicts: libsecp256k1-dev
+Replaces: libsecp256k1-dev
+Provides: libsecp256k1-dev (= 0.1)
+Filename: ./libsecp256k1-iog-dev_0.1-1_amd64.deb
+Size: 1167380
+MD5sum: 57a6168cf8c80e7febbce1da15e91d36
+SHA1: eab2819e5776fc3a757720dc3041f2e5201600d2
+SHA256: f6c31b740c8cfb5244eed99d7beb438671c6659e5d244fdc033c4e411e1b592e
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/bitcoin/secp256k1
+Description: library for EC operations on curve secp256k1 - development headers
+ An optimized C library for EC operations on curve secp256k1.
+ .
+ NB! This library is intended to be
+ the highest quality publicly available library
+ for cryptography on the secp256k1 curve.
+ However, the primary focus of its development has been
+ for usage in the Bitcoin system
+ and usage unlike Bitcoin's may be less well tested, verified,
+ or suffer from a less well thought out interface.
+ Correct usage requires some care and consideration
+ that the library is fit for your application's purpose.
+ .
+ Features:
+  * secp256k1 ECDSA signing/verification and key generation.
+  * Additive and multiplicative tweaking of secret/public keys.
+  * Serialization/parsing of secret keys, public keys, signatures.
+  * Constant time, constant memory access signing and public key generation.
+  * Derandomized ECDSA (via RFC6979 or with a caller provided function.)
+  * Very efficient implementation.
+  * Suitable for embedded systems.
+  * Optional module for public key recovery.
+  * Optional module for ECDH key exchange.
+ .
+ This package provides header files for developing your applications to
+ use libbitcoin template engine.
+
+Package: libsecp256k1-iog-dev
+Source: libsecp256k1-iog
+Version: 0.1-1
+Architecture: arm64
+Maintainer: builder <builder@build.terminada.io>
+Installed-Size: 1270
+Depends: libsecp256k1-0-iog (= 0.1-1), pkg-config
+Conflicts: libsecp256k1-dev
+Replaces: libsecp256k1-dev
+Provides: libsecp256k1-dev (= 0.1)
+Filename: ./libsecp256k1-iog-dev_0.1-1_arm64.deb
+Size: 1167684
+MD5sum: 20ab43fe9486ac62b28d5667f3200eb6
+SHA1: 12ceee5d8d71964e187fdf8f40712b87f4f6e44d
+SHA256: c13c4b75f0abc89b79b639e59d0d82f64d1fba6624da537a59c5e07904d972e4
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/bitcoin/secp256k1
+Description: library for EC operations on curve secp256k1 - development headers
+ An optimized C library for EC operations on curve secp256k1.
+ .
+ NB! This library is intended to be
+ the highest quality publicly available library
+ for cryptography on the secp256k1 curve.
+ However, the primary focus of its development has been
+ for usage in the Bitcoin system
+ and usage unlike Bitcoin's may be less well tested, verified,
+ or suffer from a less well thought out interface.
+ Correct usage requires some care and consideration
+ that the library is fit for your application's purpose.
+ .
+ Features:
+  * secp256k1 ECDSA signing/verification and key generation.
+  * Additive and multiplicative tweaking of secret/public keys.
+  * Serialization/parsing of secret keys, public keys, signatures.
+  * Constant time, constant memory access signing and public key generation.
+  * Derandomized ECDSA (via RFC6979 or with a caller provided function.)
+  * Very efficient implementation.
+  * Suitable for embedded systems.
+  * Optional module for public key recovery.
+  * Optional module for ECDH key exchange.
+ .
+ This package provides header files for developing your applications to
+ use libbitcoin template engine.
+

@@ -1,0 +1,17 @@
+Date: Sun, 04 Dec 2022 04:12:45 +0000
+MD5Sum:
+ 07914c4de555a6f0edcdfa3a9ff337c7             9620 Packages
+ a544c9185791b908771edb85b1192b5a             2169 Packages.gz
+ 7a0998dddc01c1ab8febd4ce5a0e282e               38 Release
+SHA1:
+ e8f7a8e819ae2f8bae268a0896c9f67416acab9e             9620 Packages
+ 1189973a9777deafeb0a7d9d7558ff30affda0f7             2169 Packages.gz
+ 890b4cb25bea318f8a84d1b1bb6e4702fb86253d               38 Release
+SHA256:
+ 63f3a967ed465ef863bb5fc80c03cdeceb603fe15529dcf456b30f6de2800f32             9620 Packages
+ 32a31285d6e79c45b8691d76c613f5a2520fafb26bbcaa5162c14a3687bfcbdc             2169 Packages.gz
+ 5c98359b0f823dd490db7949bb6581525ba572f5c0428d5e65157a7a18fb585c               38 Release
+SHA512:
+ 40ae26c636df77edef0aac629d3563006e4b64caecc487e64c5b09e8d086a756d589d3a4de6ccd2c77034dbb8622eef8480e5409fdd0b5fc1e7c89d8805b691f             9620 Packages
+ 00c4ca643dbea92d9c7cc53f7d719c15fe4b97c488688b8d30319129e16c9756c732e10784c9e62a1b3e0078093e658c863a611a0cf1db812de22838e0d979cf             2169 Packages.gz
+ b3a96cf348d59ea97a1ca0c449e99166e731e722ffdea09beb501191278209b8070214e49fcd5710f877ebb3f4021e13b3e046b2a63e528ea49fbdc25f5f8e42               38 Release

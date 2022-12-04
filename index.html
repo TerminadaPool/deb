@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      pre code {
+        background-color: #eee;
+        border: 1px solid #999;
+        display: block;
+        padding: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>TerminadaPool deb repository</h1>
+    <h3>To add this repository to your apt sources.list:</h3>
+    <pre>
+    <code>
+wget -O- https://TerminadaPool.github.io/deb/KEY.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/terminada.io.gpg > /dev/null
+echo "deb [signed-by=/usr/share/keyrings/terminada.io.gpg] https://TerminadaPool.github.io/deb ./" | sudo tee /etc/apt/sources.list.d/terminada.io.list
+sudo apt update
+    </code>
+    </pre>
+    <h3>To install cardano-node:</h3>
+    <pre>
+    <code>
+sudo apt install cardano-node
+    </code>
+    </pre>
+  </body>
+</html>
